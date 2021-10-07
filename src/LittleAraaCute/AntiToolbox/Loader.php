@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace LittleAraaCute\AntiToolbox
+namespace LittleAraaCute\AntiToolbox;
 
 use pocketmine\event\Listener;
 use pocketmine\event\server\DataPacketReceiveEvent;
