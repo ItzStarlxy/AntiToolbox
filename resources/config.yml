@@ -1,4 +1,4 @@
-kick-message: "[AntiToolbox] Toolbox isn't allowed in this server!""
+kick-message: "[AntiToolbox] Toolbox isn't allowed in this server!"
 weebhook: ""
 OnEnable: "Plugin Enabled"
 PlayerJoin: "{player} kicked detect use toolbox"
