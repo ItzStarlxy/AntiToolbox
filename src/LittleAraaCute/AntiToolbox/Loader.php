@@ -68,7 +68,7 @@ class Loader extends PluginBase implements Listener
             {
                 $player->close("", $this->config->get("kick-message"));
                 if(!$player->isConnected()){
-                DiscordManager::postWebhook($this->weebhook, str_replace(["{player}"], [$player->getName()], $this->getConfig()->get("PlayerJoin")), "");
+                DiscordManager::postWebhook($this->weebhook, str_replace(["{player}"], [$player->getName()], $this->config->get("PlayerJoin")), "");
                 }
             }
         }
