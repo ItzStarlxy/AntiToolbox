@@ -23,8 +23,8 @@ class Loader extends PluginBase implements Listener
 		$this->saveDefaultConfig();
         $this->saveResource("config.yml");
         $this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
-        $this->weebhook = $this->getConfig()->get("weebhook");
-		DiscordManager::postWebhook($this->weebhook, $this->getConfig()->get("OnEnable"), "");
+        $this->weebhook = $this->config->get("weebhook");
+		DiscordManager::postWebhook($this->weebhook, $this->config->get("OnEnable"), "");
 	}
 
     /**
