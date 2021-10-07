@@ -10,7 +10,7 @@ use pocketmine\network\mcpe\protocol\LoginPacket;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
-use LittleAraaCute\AntiToolBox\discord\DiscordManager;
+use LittleAraaCute\AntiToolbox\discord\DiscordManager;
 
 class Loader extends PluginBase implements Listener
 {
