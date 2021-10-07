@@ -1,6 +1,6 @@
 <?php
 
-namespace YaN\AntiToolBox\discord\task;
+namespace LittleAraaCute\AntiToolBox\discord\task;
 
 use pocketmine\scheduler\AsyncTask;
 
