@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YaN\AntiToolBox;
+namespace LittleAraaCute\AntiToolbox
 
 use pocketmine\event\Listener;
 use pocketmine\event\server\DataPacketReceiveEvent;
@@ -10,7 +10,7 @@ use pocketmine\network\mcpe\protocol\LoginPacket;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
-use YaN\AntiToolBox\discord\DiscordManager;
+use LittleAraaCute\AntiToolBox\discord\DiscordManager;
 
 class Loader extends PluginBase implements Listener
 {
