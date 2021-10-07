@@ -1,8 +1,8 @@
 <?php
 
-namespace YaN\AntiToolBox\discord;
+namespace LittleAraaCute\AntiToolBox\discord;
 
-use YaN\AntiToolBox\discord\task\DiscordPost;
+use LittleAraaCute\AntiToolBox\discord\task\DiscordPost;
 use pocketmine\Server;
 
 class DiscordManager{
